@@ -1,5 +1,5 @@
 {
-    "categories": [
+  "categories": [
     {
       "id": 1,
       "name": "School"
@@ -13,34 +13,30 @@
       "name": "Work"
     }
   ],
-    "task":[
-        {
-    "id": 1,
-    "title": "Complete project report",
-    "description": "Finish writing the final project report for the client.",
-    "categoryid": 1,
-    "status": "Pending",
-    "duedate": "2025-03-18"
-},
-  {
-    "id": 2,
-    "title": "Buy Groceries",
-    "description": "Milk,Vegetables",
-    "categoryid": 2,
-    "status": "Completed",
-    "duedate": "2025-01-20"
-  },
-  {
-    "id": 3,
-    "title": "Attend Seminar",
-    "description": "lorem ipsum",
-    "categoryid": 3,
-    "status": "Pending",
-    "duedate": "2025-01-20"
-  }
-]
-
-
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete project report",
+      "description": "Finish writing the final project report for the client.",
+      "category": "School",
+      "dueDate": "2025-03-18",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Buy Groceries",
+      "description": "Milk, Vegetables",
+      "category": "Personal",
+      "dueDate": "2025-01-20",
+      "done": true
+    },
+    {
+      "id": 3,
+      "title": "Attend Seminar",
+      "description": "Lorem ipsum",
+      "category": "Work",
+      "dueDate": "2025-01-20",
+      "done": false
+    }
+  ]
 }
-
-  
